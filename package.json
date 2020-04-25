@@ -3,7 +3,7 @@
   "version": "0.0.1-alpha.0",
   "description": "A command-line toolkit for Fontlet",
   "bin": {
-    "wp": "./bin/index.js"
+    "fl": "./bin/index.js"
   },
   "scripts": {
     "lint": "eslint ./bin ./lib",
