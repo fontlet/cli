@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["airbnb", "prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "no-use-before-define": [2, {
+      "functions": false
+    }],
+    "complexity": [1, 5],
+    "comma-dangle": ["error", "never"],
+    "react/prop-types": 0,
+    "global-require": 0,
+    "max-len": [2, 100, 4],
+    "import/prefer-default-export": 0,
+    "prettier/prettier": "error"
+  },
+  "plugins": [
+    "prettier"
+  ]
+}
