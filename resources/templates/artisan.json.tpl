@@ -1,3 +1,0 @@
-{
-    "cliVersion": "<%= cliVersion %>"
-}
