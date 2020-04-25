@@ -15,7 +15,7 @@ const fsUtil = {
   },
 
   getWorkingDir(dir = null) {
-    let rootDir = `${shelljs.pwd()}`;
+    const rootDir = `${shelljs.pwd()}`;
     if (!dir) return rootDir;
 
     return path.join(rootDir, dir);

@@ -9,7 +9,7 @@ program
   .option("-y, --yes", "Skip user inputs")
   .description("wp init [dir] -f -y")
   .action((dir, options) => {
-    console.log(dir, options)
+    console.log(dir, options);
   });
 
 // TODO: Put all other commands here.
