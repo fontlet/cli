@@ -11,7 +11,13 @@
     "test": "npm run lint",
     "precommit": "npm run lint && npm run prettier"
   },
-  "author": "thinkholic <mailtokasun@gmail.com>",
+  "contributors": [
+    {
+      "name": "thinkholic",
+      "email": "mailtokasun@gmail.com",
+      "url": "https://people.incite.sh/~in"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
