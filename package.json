@@ -34,7 +34,7 @@
     "fs": "0.0.1-security",
     "fs-extra": "^2.0.0",
     "inquirer": "^3.0.4",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "path": "^0.12.7",
     "shelljs": "^0.7.6",
     "update-notifier": "^2.1.0"
